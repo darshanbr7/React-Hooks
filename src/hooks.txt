@@ -1,0 +1,9 @@
+what is HOOK ?
+Hooks are new feature added in the react in the version of 16.8
+Hooks allow to use react feature without using class component
+
+why HOOKS?
+in hooks codes are simpler  compare to class
+hooks did't use "this" keyword
+hooks are faster then class component
+reusabality
