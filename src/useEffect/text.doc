@@ -1,0 +1,11 @@
+Use Effect is is used to control the side effect in class components
+= use Effect hook is a Close replacement for "component Did mount" ,"component did unmount","component will unmount"
+
+useEffect run after evevry render
+syntax :
+  useEffect(callback function)
+  useEffect(()=>{})  == this is eqivalent to component Did mount, and component did update methods in class 
+  
+  for avoid unneccessary rendering we add the dependency  as a second argument to useEffect hook
+  syntax :
+    useEffect(()=>{},[value])

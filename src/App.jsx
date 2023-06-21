@@ -1,10 +1,10 @@
 import React from 'react'
-import UseState from './useState/UseState'
+import MouseEvent from './useEffect/MouseEvent'
 const App = () => {
   return (
     <div>
-        <UseState/>
-    </div>
+      <MouseEvent/>
+  </div>
   )
 }
 

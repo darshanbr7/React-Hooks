@@ -1,0 +1,13 @@
+useState
+this hooks is used to maintain state in functional component
+
+syntax
+const[variable, function]=useState(initial Value)
+
+variable- to store the Value
+function- to set the value to variable
+initial value- default value of the variable  (it may be number,String, Boolean , Array, ETC)
+
+case: if initial value will be an Object
+to set the value to the object Keys  using ... operator
+setName({...name,lastName:e.target.value})
