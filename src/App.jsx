@@ -1,9 +1,9 @@
 import React from 'react'
-import MouseEvent from './useEffect/MouseEvent'
+import CounterOne from "./useReducer/CounterOne"
 const App = () => {
   return (
     <div>
-      <MouseEvent/>
+      <CounterOne/>
   </div>
   )
 }

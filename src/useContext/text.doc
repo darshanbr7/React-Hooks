@@ -1,0 +1,18 @@
+use context provids a way to pass the data through the component tree without having to pass the props
+down manually at evevry level
+
+Steps
+1. create Context  
+ and export the Context  => const Conxtetname=React.createContext()
+
+ inside a function call the context and assign the value
+    =>          <PlaceContext.Provider value={"bolare"}>
+                     <ComponentB/> 
+                </PlaceContext.Provider>
+
+how to display the value
+Steps
+1. import the value
+2. import the useContext() hook 
+3. pass the context value as a argument to the useContext hook   =>const user=useContext(UserContext)
+4. call the value
